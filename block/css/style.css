@@ -1,0 +1,94 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+
+.circl{
+  /* height: 10px;   */
+  height: 200px;
+  width: 200px;
+  /* border-radius: 50%; */
+  border: 3px solid #000;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+button[type="button"]{
+width: 164px;
+height: 42px;
+
+border: 1px solid #000;
+border-radius: 5px;
+padding: 12px 34px;
+}
+
+
+header{
+  /* height: 50px; */
+  margin-top: 100px;
+
+
+
+  border: 1px solid #000;
+
+
+  border-width: 1px;
+   border-style: solid;
+   border-color: #000;
+
+
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+  padding: 0 3px  ;
+
+  padding: 2px;
+}
+.logo {
+  display: inline-block;
+  margin-top: 50px;
+height: 20px;
+width: 100px;
+}
+.login {
+
+}
+.logout {
+
+}
+
+body{
+  font-family: Roboto; 
+}
+
+
+/* ======================= header ============================ */
+
+.header{
+width: 100px;
+padding: 25px;
+margin-top: 35px;
+}
+.logo{
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+}
+.nav{}
+.nav-list{}
+.nav-item{}
+.login{}
+.logout{}
+
+
+
+/* ======================= hero ============================ */
+
+
+/* ======================= fetures ============================ */
+/* ======================= team ============================ */
+/* ======================= work ============================ */

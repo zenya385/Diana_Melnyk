@@ -1,0 +1,109 @@
+a {
+  text-decoration: none;
+  display: block;
+}
+ul,
+li {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* .title {
+    
+}*/
+
+.list {
+  font-family: "Courier New", monospace;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: italic;
+  outline: 1px solid #000;
+
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  padding: 20px 0;
+  margin-top: 50px;
+
+  height: 50vh;
+  justify-content: flex-start;
+}
+
+.item {
+  outline: 1px solid #0fe4b6;
+  padding: 20px 30px;
+  /* margin-bottom: 30px; */
+}
+
+.item:not(:last-child) {
+  /* margin-bottom: 30px; */
+}
+
+.item:last-child {
+  /* margin-bottom: 0; */
+}
+
+.link {
+}
+
+.img-content{
+margin: 0 auto;
+}
+
+.qure {
+background-image: url(https://icon-library.com/images/bird-icon-png/bird-icon-png-5.jpg),  url("https://h5p.org/sites/default/files/h5p/content/1209180/images/file-6113d5f8845dc.jpeg");
+background-repeat:repeat-x, no-repeat ;
+/* background-position: center; */
+background-size:  50px 50px, contain;
+background-position: bottom;
+  margin: 100px auto;
+  /* box-sizing: border-box; */
+  width: 950px;
+  height: 621px;
+  background-color: #15c9b1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+body{
+  /* background-image: url(https://icon-library.com/images/bird-icon-png/bird-icon-png-5.jpg);
+  background-attachment: scroll; */
+  /* background-repeat: no-repeat; */
+}
+.qure1{
+ background-image: url(https://icon-library.com/images/bird-icon-png/bird-icon-png-5.jpg), url(https://icon-library.com/images/bird-icon-png/bird-icon-png-5.jpg);
+ background-repeat: no-repeat, repeat;
+ background-position: center;
+ background-size: contain, 50px;
+
+  width: 950px;
+  height: 621px;
+  border: 2px solid #000;
+  
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
